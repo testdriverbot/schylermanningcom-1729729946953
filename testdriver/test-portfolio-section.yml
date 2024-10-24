@@ -1,0 +1,18 @@
+version: 4.0.72
+steps:
+  - prompt: Click on the "Portfolio" link in the navigation bar.
+    commands:
+      - command: hover-text
+        text: portfolio
+        description: link in the navigation bar
+        action: click
+  - prompt: Assert that the portfolio page loads successfully.
+    commands:
+      - command: assert
+        expect: the portfolio page is displayed with recent work
+  - prompt: >-
+      Assert that portfolio items are visible and accessible.  # Use the content
+      of the file from the environment
+    commands:
+      - command: assert
+        expect: portfolio items are visible and accessible
