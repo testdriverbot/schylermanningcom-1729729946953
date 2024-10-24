@@ -1,0 +1,107 @@
+version: 4.0.72
+steps:
+  - prompt: Click on the "Resume" link in the navigation bar.
+    commands:
+      - command: hover-text
+        text: resume
+        description: link in the navigation bar
+        action: click
+  - prompt: Assert that the resume page or download option appears.
+    commands:
+      - command: assert
+        expect: the resume page is displayed
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: resume
+        description: link in the navigation bar
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Download Resume
+        direction: down
+      - command: hover-text
+        text: Download Resume
+        description: download link for the resume
+        action: click
+  - prompt: Attempt to download the resume.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: resume
+        description: link in the navigation bar
+        action: click
