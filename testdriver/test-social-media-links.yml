@@ -1,0 +1,13 @@
+version: 4.0.72
+steps:
+  - prompt: Click on a social media link in the footer or header.
+    commands:
+      - command: hover-text
+        text: contact
+        description: contact link in the header
+        action: click
+  - prompt: Click on a social media link in the footer or header.
+    commands:
+      - command: hover-image
+        description: LinkedIn icon in the footer
+        action: click
