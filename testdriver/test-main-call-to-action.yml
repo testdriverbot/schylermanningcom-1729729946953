@@ -1,0 +1,83 @@
+version: 4.0.72
+steps:
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: hover-text
+        text: about
+        description: navigation menu item
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: hover-text
+        text: portfolio
+        description: navigation menu item
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Contact Us
+        direction: down
+      - command: hover-text
+        text: Contact Us
+        description: main call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: hover-text
+        text: contact
+        description: navigation menu item
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Learn More
+        direction: down
+      - command: hover-text
+        text: Learn More
+        description: main call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Leader
+        direction: down
+      - command: hover-text
+        text: Leader
+        description: potential call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Get Started
+        direction: down
+      - command: hover-text
+        text: Get Started
+        description: main call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Get Started
+        direction: down
+      - command: hover-text
+        text: Get Started
+        description: main call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Get Started
+        direction: down
+      - command: hover-text
+        text: Get Started
+        description: main call to action button
+        action: hover
+  - prompt: Identify the main call to action button on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Get Started
+        direction: down
+      - command: hover-text
+        text: Get Started
+        description: main call to action button
+        action: hover
