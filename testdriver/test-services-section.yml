@@ -1,0 +1,51 @@
+version: 4.0.72
+steps:
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
+  - prompt: Scroll to the services section on the homepage.
+    commands:
+      - command: scroll-until-text
+        text: Services
+        direction: down
