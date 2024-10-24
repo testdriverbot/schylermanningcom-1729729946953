@@ -1,0 +1,68 @@
+version: 4.0.72
+steps:
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search
+        description: search bar on the website
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search
+        description: search bar on the website
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search
+        description: search bar on the website
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Search
+        description: search bar on the website
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: about
+        description: navigation link near the search bar
+        action: click
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: scroll-until-text
+        text: Search
+        direction: down
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: scroll-until-text
+        text: Search
+        direction: down
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: scroll-until-text
+        text: Search
+        direction: down
+  - prompt: Locate the search bar on the website.
+    commands:
+      - command: scroll-until-text
+        text: Search
+        direction: down
