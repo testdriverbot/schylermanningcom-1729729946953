@@ -1,0 +1,63 @@
+version: 4.0.72
+steps:
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: scroll
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
+  - prompt: Navigate to the newsletter signup section.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Newsletter Signup
+        direction: down
