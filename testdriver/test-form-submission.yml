@@ -1,0 +1,10 @@
+version: 4.0.72
+steps:
+  - prompt: >-
+      Navigate to a page with a form  # Use the content of the file from the
+      environment
+    commands:
+      - command: hover-text
+        text: contact
+        description: contact link in the header
+        action: click
