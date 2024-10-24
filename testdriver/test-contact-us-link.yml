@@ -1,0 +1,20 @@
+version: 4.0.72
+steps:
+  - prompt: Click on the "Contact" link in the navigation bar.
+    commands:
+      - command: hover-text
+        text: contact
+        description: contact link in the navigation bar
+        action: click
+  - prompt: Assert that the contact page loads successfully.
+    commands:
+      - command: assert
+        expect: the contact page is displayed with a form
+  - prompt: >-
+      Assert that contact details or a contact form is present on the page.  #
+      Use the content of the file from the environment
+    commands:
+      - command: assert
+        expect: >-
+          the contact page displays a form with fields for First Name, Last
+          Name, Email, and Message
